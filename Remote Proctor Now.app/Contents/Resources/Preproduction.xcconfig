@@ -1,0 +1,24 @@
+//
+//  Development.xcconfig
+//  Remote Proctor Now
+//
+// updated Craig Counterman 6/19/2014
+//  Created by Paul Howes on 2/27/12.
+//  Copyright (c) 2012 Software Secure, Inc. All rights reserved.
+//
+CAPTURE_FREQ             = 5000
+ENABLE_PASSWORD_BUTTON = NO
+IS_CHAT_BUTTON_VISIBLE   = YES
+IS_CLOSE_BUTTON_VISIBLE  = YES
+IS_EXIN                  = NO
+IS_TOOLBAR_VISIBLE       = YES
+JPEG_COMPRESSION_FACTOR  = 0.25
+ON_CLOSE_LAUNCH_PREFIX   =
+ON_CLOSE_LAUNCH_SUFFIX   =
+USER_AGENT_EXTRA         = RPNow
+
+DOWNLOAD_PAGE = http:\/\/sea.softwaresecure.com/rpinstall/install.aspx
+ERROR_HOST_PAGE = http:\/\/sea.softwaresecure.com/rpinstall/Onlinehelp.aspx
+PASSWORD_HELP_PAGE = http:\/\/sea.softwaresecure.com/rpinstall/helpvideo.htm?type=password
+START_PAGE = http:\/\/sea.softwaresecure.com/rpinstall/Default.aspx
+VERSION_CHECK_URL = http:\/\/sea.softwaresecure.com/rpinstall/MacVersion.txt
